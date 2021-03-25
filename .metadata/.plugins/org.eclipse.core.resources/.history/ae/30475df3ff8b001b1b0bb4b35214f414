@@ -1,0 +1,10 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.PrimaryKeyJoinColumn;
+
+@Entity
+@PrimaryKeyJoinColumn(referencedColumnName = "abogados")
+public class Abogado extends Persona{
+ 
+}

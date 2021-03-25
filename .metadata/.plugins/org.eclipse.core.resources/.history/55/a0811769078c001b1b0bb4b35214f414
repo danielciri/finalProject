@@ -1,0 +1,16 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+import java.util.Date;
+
+public class Cita {
+	private Long idCita;
+	private Cliente nomCliente;
+	private Date hora;
+	private String asunto;
+	private Abogado nomAbogado;
+	private boolean estadoCita;
+	private Date fechaProgramada;
+	
+	
+
+}

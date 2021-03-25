@@ -1,0 +1,17 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+import java.util.Date;
+
+/**
+ * 
+ * @author Daniel Cirilo
+ *
+ */
+public class Expediente {
+	private Long num_expediente;
+	private Date fecha_apertura;
+	private Date fecha_cerrado;
+	private String observacion;
+	private boolean estado;
+
+}

@@ -1,0 +1,16 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+import java.util.Date;
+
+public class Cliente {
+	private String dni;
+	private String nombre;
+	private String apellido;
+	private String email;
+	private long numeroTelefono;
+	private String direccion;
+	private char sexo;
+	private Date fecha_nacimiento;
+	
+
+}

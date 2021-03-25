@@ -1,0 +1,13 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+/**
+ * 
+ * @author Daniel Cirilo
+ *
+ */
+public class lineaFactura {
+	private float iva;
+	private float subTotal;
+	private float total;
+
+}

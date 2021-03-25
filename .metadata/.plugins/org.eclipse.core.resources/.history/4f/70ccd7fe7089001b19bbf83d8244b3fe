@@ -1,0 +1,5 @@
+package site.danielcirilo.springboot.app.models;
+
+public class Cliente {
+
+}

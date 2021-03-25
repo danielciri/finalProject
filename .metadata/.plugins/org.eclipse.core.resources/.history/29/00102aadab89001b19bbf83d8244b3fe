@@ -1,0 +1,9 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+public class Abogado {
+	private long numeroLicencia;
+	private String nombre;
+	private String apellido;
+	private String email;
+
+}

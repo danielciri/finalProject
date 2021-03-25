@@ -1,0 +1,17 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+import java.util.Date;
+
+/**
+ * 
+ * @author Daniel Cirilo
+ *
+ */
+public class Factura {
+	private long id;
+	private String descripcion;
+	private Date fecha;
+	private String observacion;
+	
+
+}

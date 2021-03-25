@@ -1,0 +1,19 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+import java.util.Date;
+
+/**
+ * 
+ * @author Daniel Cirilo
+ *
+ */
+public class Caso {
+	private Servicio nombreServicio;
+	private Date fechaInicio;
+	private Date fechaFinalizacion;
+	private Cliente nombreCliente;
+	private Abogado licencia;
+	private String titulo;
+	private Long codigoCaso;
+
+}

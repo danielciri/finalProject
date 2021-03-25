@@ -1,0 +1,17 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+import java.util.Date;
+
+/**
+ * 
+ * @author Daniel Cirilo
+ *
+ */
+public class Agenda {
+	private long id;
+	private String actividad;
+	private Date fechaCreacion;
+	private Date fechaFinalizacion;
+	private Abogado nombre;
+
+}

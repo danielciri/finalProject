@@ -1,0 +1,16 @@
+package site.danielcirilo.springboot.app.models.entity;
+
+/**
+ * 
+ * @author Daniel Cirilo
+ *
+ */
+public class Servicio {
+	private Long id;
+	private String nombre;
+	private float costo;
+	private String descripcion;
+	
+	
+
+}
